@@ -22,7 +22,6 @@ const Login = () => {
 
       // Store the token in localStorage
       setToken(token);
-      window.location.reload();
       // Redirect to the Home page
       navigate('/');
     } catch (err) {
